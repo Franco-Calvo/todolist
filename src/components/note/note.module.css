@@ -1,0 +1,53 @@
+.note {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+  width: 90%;
+  min-height: 5%;
+  background: #24252c;
+  border-radius: 6px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+}
+
+.content {
+  color: #dadada;
+  font-weight: 500;
+  width: 70%;
+}
+
+.completed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 100%;
+  background: #a9ff6f;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.incomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 100%;
+  background: #ff6f6f;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.deleteNote {
+  background: none;
+  outline: none;
+  border: none;
+}

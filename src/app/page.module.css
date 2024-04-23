@@ -81,6 +81,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.addNote:hover {
+  transform: scale(1.1);
+  transition: all ease 200ms;
 }
 
 @media (min-width: 1024px) {
